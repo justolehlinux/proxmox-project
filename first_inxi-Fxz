@@ -1,0 +1,57 @@
+System:
+  Kernel: 6.14.8-2-pve arch: x86_64 bits: 64 compiler: gcc v: 14.2.0
+  Console: pty pts/0 Distro: Debian GNU/Linux 13 (trixie)
+Machine:
+  Type: Desktop System: SHANGZHAOYUAN product: X99 v: N/A serial: N/A
+  Mobo: SHANGZHAOYUAN model: X99H serial: N/A UEFI: American Megatrends v: 5.11
+    date: 12/02/2022
+CPU:
+  Info: 14-core model: Intel Xeon E5-2680 v4 bits: 64 type: MT MCP arch: Broadwell rev: 1
+    cache: L1: 896 KiB L2: 3.5 MiB L3: 35 MiB
+  Speed (MHz): avg: 3300 min/max: 1200/3300 cores: 1: 3300 2: 3300 3: 3300 4: 3300
+    5: 3300 6: 3300 7: 3300 8: 3300 9: 3300 10: 3300 11: 3300 12: 3300 13: 3300 14: 3300
+    15: 3300 16: 3300 17: 3300 18: 3300 19: 3300 20: 3300 21: 3300 22: 3300 23: 3300
+    24: 3300 25: 3300 26: 3300 27: 3300 28: 3300 bogomips: 134094
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+Graphics:
+  Device-1: NVIDIA TU116 [GeForce GTX 1650] vendor: Gigabyte driver: N/A arch: Turing
+    bus-ID: 03:00.0
+  Display: server: No display server data found. Headless machine? tty: 93x50
+  API: EGL v: 1.5 drivers: swrast platforms: active: surfaceless,device
+    inactive: gbm,wayland,x11
+  API: OpenGL v: 4.5 vendor: mesa v: 25.0.7-2 note: console (EGL sourced)
+    renderer: llvmpipe (LLVM 19.1.7 256 bits)
+  Info: Tools: api: eglinfo,glxinfo x11: xdriinfo, xdpyinfo, xprop, xrandr
+Audio:
+  Device-1: Intel 8 Series/C220 Series High Definition Audio driver: snd_hda_intel
+    v: kernel bus-ID: 00:1b.0
+  Device-2: NVIDIA TU116 High Definition Audio vendor: Gigabyte driver: snd_hda_intel
+    v: kernel bus-ID: 03:00.1
+  API: ALSA v: k6.14.8-2-pve status: kernel-api
+Network:
+  Device-1: Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet driver: r8169
+    v: kernel port: d000 bus-ID: 07:00.0
+  IF: enp7s0 state: up speed: 1000 Mbps duplex: full mac: <filter>
+  IF-ID-1: bonding_masters state: N/A speed: N/A duplex: N/A mac: N/A
+  IF-ID-2: vmbr0 state: up speed: 1000 Mbps duplex: unknown mac: <filter>
+Bluetooth:
+  Device-1: Cambridge Silicon Radio Bluetooth Dongle (HCI mode) driver: btusb v: 0.8
+    type: USB bus-ID: 3-7:2
+  Report: rfkill ID: hci0 rfk-id: 0 state: down bt-service: not found rfk-block:
+    hardware: no software: no address: see --recommends
+Drives:
+  Local Storage: total: 953.87 GiB lvm-free: 16 GiB used: 3.62 GiB (0.4%)
+  ID-1: /dev/nvme0n1 vendor: Intel model: SSDPEKNW010T8 size: 953.87 GiB temp: 54.9 C
+Partition:
+  ID-1: / size: 93.93 GiB used: 3.61 GiB (3.8%) fs: ext4 dev: /dev/dm-1 mapped: pve-root
+  ID-2: /boot/efi size: 1022 MiB used: 8.8 MiB (0.9%) fs: vfat dev: /dev/nvme0n1p2
+Swap:
+  ID-1: swap-1 type: partition size: 8 GiB used: 0 KiB (0.0%) dev: /dev/dm-0
+    mapped: pve-swap
+Sensors:
+  System Temperatures: cpu: 33.0 C mobo: N/A
+  Fan Speeds (rpm): N/A
+Info:
+  Memory: total: 16 GiB available: 15.45 GiB used: 1.77 GiB (11.4%)
+  Processes: 373 Uptime: 11m Init: systemd
+  Packages: 811 Compilers: N/A Shell: Bash v: 5.2.37 inxi: 3.3.38
