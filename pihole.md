@@ -8,3 +8,11 @@ ufw default allow outcoming
 ufw allow DNS
 ufw allow in on eth0
 ufw enable
+
+
+add adlists 
+https://big.oisd.nl
+
+bash scripts 
+https://github.com/jpgpi250/piholemanual
+
