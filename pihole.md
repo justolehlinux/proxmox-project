@@ -4,8 +4,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 
 
 ufw default deny incoming
-ufw deny in on eth1
-ufw allow in on eth1 to any port 53 proto udp
-ufw allow in on eth1 to any port 53 proto tcp
+ufw default allow outcoming
+ufw allow DNS
 ufw allow in on eth0
 ufw enable
